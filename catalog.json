@@ -28,9 +28,25 @@
     { "id": "prod-012a6990-022", "name": "Pro Item 22", "category": "books", "price": 163.91, "stock": 16, "rating": 1 }
   ],
   "aggregations": {
+    "electronics": {
+      "count": 6,
+      "inventoryValue": 128737.82
+    },
     "home": {
       "count": 3,
       "inventoryValue": 124719.63
+    },
+    "clothing": {
+      "count": 2,
+      "inventoryValue": 30933.63
+    },
+    "books": {
+      "count": 6,
+      "inventoryValue": 112102.76
+    },
+    "sports": {
+      "count": 5,
+      "inventoryValue": 116560.28
     }
   }
 }
